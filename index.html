@@ -8,7 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100;1,700&display=swap" rel="stylesheet">
-    <script src="imc.js" defer> </script>
+    <script src="professor.js" defer> </script>
+
     <title>IMC</title>
 </head>
 <body>
@@ -55,18 +56,18 @@
             <form>
                 <div class="campo">
                     <label for="">Nome:</label>
-                    <input type="text" id="nome" name="nome">
+                    <input type="text" id="nome" name="nome" required>
                 </div>
                 <div class="campo unidade" data-unidade="metros">
                     <label for="">Altura:</label>
-                    <input type="text" id="altura">
+                    <input type="number" id="altura"required step="any">
                 </div>
                 <div class="campo unidade" data-unidade="quilos">
                     <label for="">Peso:</label>
-                    <input type="text" id="peso">
+                    <input type="number" id="peso"required step="any">
                 </div>
-                    <button type="button" id="botao">CALCULAR</button>
-                    <div id="resultado">Texto para teste</div>
+                    <button type="button" id="calcular">CALCULAR</button>
+                    <div id="resultado"></div>
             </form>
         </section>
       </main>

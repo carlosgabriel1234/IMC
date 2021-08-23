@@ -123,6 +123,12 @@ section{
     border-radius: 5px;
 
 }
+.azul{
+    color:darkblue;
+}
+.vermelho{
+    color:red;
+}
 
 @media (max-width: 768px) {
     #categorias {
